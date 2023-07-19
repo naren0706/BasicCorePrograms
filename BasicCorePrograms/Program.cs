@@ -40,6 +40,9 @@ namespace BasicProblems
                     case 7:
                         Swap.swap();
                         break;
+                    case 8:
+                        OddOrEven.Find();
+                        break;
                     default:
                         flag = false;
                         break;
