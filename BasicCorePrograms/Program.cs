@@ -13,7 +13,7 @@ namespace BasicProblems
             while (flag)
             {
                 Console.WriteLine("Enter the input :");
-                Console.WriteLine("1.Heads and Tails\n2.LeepYear\n3.power of two");
+                Console.WriteLine("1.Heads and Tails\n2.LeepYear\n3.power of two\n4.Harmonic number");
                 int input = Convert.ToInt32(Console.ReadLine());
 
                 switch (input)
@@ -27,7 +27,9 @@ namespace BasicProblems
                     case 3:
                         PowerOftwo.GetTable();
                         break;
-                    
+                    case 4:
+                        HarmonicNumber.GetNumber();
+                        break;
                     default:
                         flag = false;
                         break;
