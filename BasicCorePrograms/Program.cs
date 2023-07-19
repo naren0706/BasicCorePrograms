@@ -13,7 +13,7 @@ namespace BasicProblems
             while (flag)
             {
                 Console.WriteLine("Enter the input :");
-                Console.WriteLine("1.Heads and Tails\n2.LeepYear\n3.power of two\n4.Harmonic number\n5.Prime Factor");
+                Console.WriteLine("1.Heads and Tails\n2.LeepYear\n3.power of two\n4.Harmonic number\n5.Prime Factor\n6.Quotient and Remainder");
                 int input = Convert.ToInt32(Console.ReadLine());
 
                 switch (input)
@@ -32,6 +32,9 @@ namespace BasicProblems
                         break;
                     case 5:
                         Factors.GetFactors();
+                        break;
+                    case 6:
+                        Division.GetQuoationAndRemainder();
                         break;
                     default:
                         flag = false;
